@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<boo:beans xmlns:boo="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:ccc="http://www.springframework.org/schema/c" xmlns:p="http://www.springframework.org/schema/p"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+    <boo:bean id="bar" class="x.y.Bar" p:id="bar!!!"/>
+    <boo:bean id="baz" class="x.y.Baz"/>
+    <boo:bean id="foo" class="x.y.Foo" ccc:barr-ref="bar">
+        <boo:constructor-arg name="baz" ref="baz"/>
+        <!--<constructor-arg name="barr" ref="bar"/>-->
+        <boo:constructor-arg value="foo@bar.com"/>
+        <boo:constructor-arg name="boo" ref="boo2"/>
+    </boo:bean>
+    <boo:bean id="boo" class="x.y.Foo" ccc:barr-ref="bar" ccc:baz-ref="baz" ccc:string_prop="ttt" ccc:boo-ref="boo2"/>
+    <!--<bean id="bar1" class="x.y.Bar" c:str="BBBB" p:pid="pppp">
+      &lt;!&ndash;<property name="id" value="barrrr!!!!"/&ndash;&gt;
+      &lt;!&ndash;<constructor-arg value="BBB"/>&ndash;&gt;
+    </bean>-->
+    <boo:bean id="zoo" class="x.y.Foo" ccc:_0-ref="bar" ccc:_1-ref="baz" ccc:_2="AAAAA" ccc:_3-ref="boo2"/>
+    <boo:bean id="boo2" class="x.y.Boo">
+        
+    </boo:bean>
+    
+</boo:beans>
