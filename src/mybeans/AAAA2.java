@@ -3,14 +3,14 @@ package mybeans;
 import x.y.Foo;
 
 
-public class AAA2 extends AAA1 {
+public class AAAA2 extends AAAA1 {
 
     /*str1*/
     String str1;
 
     public String getStr1() {
         return str1;}
-    public AAA2(int myint) {
+    public AAAA2(int myint) {
         super(myint);
     }
 
@@ -21,7 +21,7 @@ public class AAA2 extends AAA1 {
 
    /**
     *to String
-    * @see AAA1
+    * @see AAAA1
     **/
     @Override
     public String toString() {

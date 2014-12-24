@@ -20,7 +20,7 @@
     <boo:bean id="boo2" class="x.y.Boo">
         
     </boo:bean>
-    <boo:bean class="mybeans.AAA2" id="a2">
+    <boo:bean class="mybeans.AAAA2" id="a2">
         <boo:property name="zoo" ref="zoo"/>
     </boo:bean>
 

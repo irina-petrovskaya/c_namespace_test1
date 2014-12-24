@@ -3,7 +3,7 @@ package mybeans;
 /**
  * Created by user on 24/12/14.
  */
-public class AAA1 {
+public class AAAA1 {
 
     public void a1_method1(){
         System.out.println(this.toString());
@@ -17,7 +17,7 @@ public class AAA1 {
 
     int iii;
 
-    public AAA1(int iii) {
+    public AAAA1(int iii) {
         this.iii = iii;
     }
 }
