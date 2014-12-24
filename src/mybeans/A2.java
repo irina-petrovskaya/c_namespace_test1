@@ -8,8 +8,8 @@ import x.y.Foo;
 public class A2 extends A1 {
     String sss;
 
-    public A2(int iii) {
-        super(iii);
+    public A2(int myint) {
+        super(myint);
     }
 
     public String getSss() {
