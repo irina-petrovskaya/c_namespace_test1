@@ -14,4 +14,9 @@ public class A1 {
     }
 
 
+    int iii;
+
+    public A1(int iii) {
+        this.iii = iii;
+    }
 }
