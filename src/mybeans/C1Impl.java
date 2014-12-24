@@ -4,4 +4,8 @@ package mybeans;
  * Created by user on 24/12/14.
  */
 public class C1Impl extends C1 {
+    @Override
+    public void foo() {
+        super.foo();
+    }
 }
