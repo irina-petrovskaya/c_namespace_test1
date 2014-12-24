@@ -6,6 +6,8 @@ import x.y.Foo;
  * Created by user on 24/12/14.
  */
 public class A2 extends A1 {
+
+    // str1
     String str1;
 
     public String getStr1() {
