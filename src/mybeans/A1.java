@@ -13,6 +13,9 @@ public class A1 {
         return "A1{}";
     }
 
+    public void a1_method2(){
+
+    }
     public void a1_method2(){}
 
     int iii;
