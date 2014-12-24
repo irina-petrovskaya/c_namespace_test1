@@ -20,7 +20,8 @@ public class A2 extends A1 {
     public void setStr1(String str1) {
         this.str1 = str1;
     }
-    //
+
+    // to String
     @Override
     public String toString() {
         return super.toString()+" overrided in A2{}";
