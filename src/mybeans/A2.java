@@ -5,7 +5,7 @@ import x.y.Foo;
 
 public class A2 extends A1 {
 
-    // str1
+    /*str1*/
     String str1;
 
     public String getStr1() {
@@ -19,7 +19,7 @@ public class A2 extends A1 {
         this.str1 = str1;
     }
 
-    // to String
+   /* to String*/
     @Override
     public String toString() {
         return super.toString()+" overrided in A2{}";
