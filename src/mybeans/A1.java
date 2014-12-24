@@ -5,7 +5,7 @@ package mybeans;
  */
 public class A1 {
 
-    public void foo(){
+    public void a1_method1(){
         System.out.println(this.toString());
     }
     @Override
