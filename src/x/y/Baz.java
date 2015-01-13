@@ -7,6 +7,7 @@ public class Baz {
 
     private String aaaa;
     private String bbb;
+    private String xxx;
 
     public String getXxx() {
         return xxx;
@@ -31,6 +32,4 @@ public class Baz {
     public void setAaaa(String aaaa) {
         this.aaaa = aaaa;
     }
-
-    private String xxx;
 }
