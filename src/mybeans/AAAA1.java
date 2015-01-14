@@ -19,5 +19,6 @@ public class AAAA1 {
 
     public AAAA1(int iii) {
         this.iii = iii;
+
     }
 }
