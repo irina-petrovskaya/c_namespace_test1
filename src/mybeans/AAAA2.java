@@ -8,6 +8,9 @@ public class AAAA2 extends AAAA1 {
     /*str1*/
     String str1;
 
+    public AAAA2() {
+    }
+
     public String getStr1() {
         return str1;}
     public AAAA2(int myint) {
