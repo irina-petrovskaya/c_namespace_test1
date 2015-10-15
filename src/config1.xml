@@ -7,7 +7,7 @@
     <boo:bean id="baz" class="x.y.Baz"/>
     <boo:bean id="foo" class="x.y.Foo" ccc:barr-ref="bar">
         <boo:constructor-arg name="baz" ref="baz"/>
-        <!--<constructor-arg name="barr" ref="bar"/>-->
+        <!--<constructor-arg name="barr" ref="bar"/> -->
         <boo:constructor-arg value="foo@bar.com"/>
         <boo:constructor-arg name="boo" ref="boo2"/>
     </boo:bean>
