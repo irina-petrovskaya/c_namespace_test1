@@ -12,5 +12,7 @@ public class RunMe {
         System.out.println("boo.getE_mail() = " + boo.getE_mail());
         Foo zoo = ctx.getBean("zoo", Foo.class);
         System.out.println("zoo.getE_mail() = " + zoo.getE_mail());
+
+
     }
 }
