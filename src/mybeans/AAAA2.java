@@ -9,12 +9,13 @@ public class AAAA2 extends AAAA1 {
     String str1;
 
     public AAAA2() {
+        super(0,0);
     }
 
     public String getStr1() {
         return str1;}
     public AAAA2(int myint) {
-        super(myint);
+        super(myint,myint);
     }
 
 

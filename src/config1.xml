@@ -3,7 +3,9 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xmlns:ccc="http://www.springframework.org/schema/c" xmlns:p="http://www.springframework.org/schema/p"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
-    <boo:bean id="bar" class="x.y.Bar" p:id="bar!!!"/>
+    <boo:bean id="bar" class="x.y.Bar" p:id="bar!!!">
+        <boo:description>bar!!!</boo:description>
+    </boo:bean>
     <boo:bean id="baz" class="x.y.Baz"/>
     <boo:bean id="foo" class="x.y.Foo" ccc:barr-ref="bar">
         <boo:constructor-arg name="baz" ref="baz"/>

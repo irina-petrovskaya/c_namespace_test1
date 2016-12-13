@@ -17,8 +17,8 @@ public class AAAA1 {
 
     int iii;
 
-    public AAAA1(int iii) {
-        this.iii = iii;
+    public AAAA1(int arg1, int arg2) {
+        this.iii = arg1;
 
     }
 }
