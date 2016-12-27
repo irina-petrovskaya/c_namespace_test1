@@ -19,6 +19,5 @@ public class AAAA1 {
 
     public AAAA1(int arg1, int arg2) {
         this.iii = arg1;
-
     }
 }
